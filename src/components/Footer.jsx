@@ -8,6 +8,7 @@ export default function Footer(props){
                 <div className="bgGradient"></div>
                 <h1>APOD Project</h1>
                 <h2>{data?.title}</h2>
+                <p>Copyright &copy; Shishir Zaman - A demo react project using Nasa Apod API.</p>
             </div>
             <button onClick={handleToggleModal}>
                 <i className="fa-solid fa-circle-info"></i>
